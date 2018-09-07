@@ -4,8 +4,7 @@ $(function() {
     // alert ("we are here in burger js");
     var id = $(this).data("id");
     var newDevoured = $(this).data("newdevoured");
-    console.log("&&&&&&&&&&&&&& in public burger js"+newDevoured);
-
+    
     if (newDevoured === false) {
       var newDevouredState = {
         devoured: true
